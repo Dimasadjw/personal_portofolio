@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
     "Software Development",
   ],
   email: "dimasadjiewibowodimas2904@gmail.com",
-  phone: "081230038392", // Ganti dengan nomor WhatsApp aktif (format internasional tanpa +, contoh: 6281234567890)
+  phone: "6281230038392", // Ganti dengan nomor WhatsApp aktif (format internasional tanpa +, contoh: 6281234567890)
   whatsappMessage: "Halo Dimas Adjie Wibowo, saya telah melihat landing page portofolio Anda dan tertarik untuk berdiskusi/berkolaborasi.",
   get whatsappLink() {
     return `https://wa.me/${this.phone}?text=${encodeURIComponent(this.whatsappMessage)}`;

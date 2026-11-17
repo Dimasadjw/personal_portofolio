@@ -184,17 +184,11 @@ const ContactPage = () => {
             className="bg-white/5 backdrop-blur-xl rounded-3xl p-5 py-8 sm:p-10 shadow-2xl transform transition-all duration-500 hover:shadow-emerald-500/10 flex flex-col justify-between border border-white/10"
           >
             <div>
-              {/* Top Badge */}
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-medium mb-4">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                Official Click-to-Chat WhatsApp
-              </div>
-
               <h3 className="text-3xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
                 Hubungi Saya via WhatsApp
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed mb-6">
-                Klik tombol aksi (CTA) di bawah untuk langsung terhubung ke WhatsApp saya melalui tautan resmi tanpa perlu menyimpan nomor terlebih dahulu.
+                Klik tombol di bawah untuk langsung terhubung ke WhatsApp saya melalui tautan resmi tanpa perlu menyimpan nomor terlebih dahulu.
               </p>
 
               {/* Quick Template Picker */}
@@ -205,7 +199,7 @@ const ContactPage = () => {
                 <div className="flex flex-col gap-2">
                   {[
                     "Halo Dimas Adjie Wibowo, saya tertarik untuk mendiskusikan peluang proyek aplikasi mobile/web.",
-                    "Halo Dimas, saya ingin berdiskusi mengenai kolaborasi digital kewirausahaan.",
+                    "Halo Dimas, saya ingin berdiskusi mengenai kolaborasi digital.",
                     "Halo Dimas Adjie Wibowo, saya telah melihat landing page portofolio Anda dan ingin menyapa!"
                   ].map((tpl, idx) => (
                     <button
